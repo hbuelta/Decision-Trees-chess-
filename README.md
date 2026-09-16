@@ -32,7 +32,7 @@ La semilla aleatoria es `42` y ambos grid searches utilizan `accuracy` con valid
 └── stockfish/                 # local e ignorado por Git
 ```
 
-La carpeta `stockfish/` no se versiona porque contiene el binario grande del motor. Debe existir localmente para ejecutar el notebook limpio. El binario probado es Stockfish 19 universal para macOS (`arm64` y `x86_64`), situado en `stockfish/stockfish-macos-universal`.
+La carpeta `stockfish/` no se versiona porque contiene el binario grande del motor. Debe existir localmente para ejecutar el notebook limpio. El binario probado es Stockfish 19 universal para macOS (`arm64` y `x86_64`), situado en `stockfish/stockfish`.
 
 ## Requisitos
 
@@ -43,7 +43,7 @@ La carpeta `stockfish/` no se versiona porque contiene el binario grande del mot
 - `pandas`
 - `zstandard`
 - `scikit-learn`
-- Stockfish en `stockfish/stockfish-macos-universal`
+- Stockfish en `stockfish/stockfish`
 
 ## Funciones principales
 
